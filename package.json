@@ -1,0 +1,25 @@
+{
+  "name": "visualization",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "farm start",
+    "start": "farm start",
+    "build": "farm build",
+    "preview": "farm preview",
+    "clean": "farm clean"
+  },
+  "dependencies": {
+    "@types/papaparse": "^5.3.15",
+    "echarts": "^5.6.0",
+    "echarts-gl": "^2.0.9",
+    "papaparse": "^5.5.2",
+    "vue": "^3.4.0",
+    "vue-echarts": "^7.0.3"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "^1.0.4",
+    "@farmfe/core": "^1.6.7",
+    "@vitejs/plugin-vue": "5.0.4",
+    "core-js": "^3.30.1"
+  }
+}
